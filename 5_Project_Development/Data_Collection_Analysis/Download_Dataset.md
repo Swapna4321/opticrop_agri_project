@@ -4,6 +4,8 @@
 
 The crop recommendation dataset was collected from publicly available agricultural data sources.
 
+Dataset Link: https://www.kaggle.com/datasets/chitrakumari25/smart-agricultural-production-optimizing-engine
+
 ## Dataset Features
 
 - Nitrogen (N)
