@@ -1,11 +1,12 @@
-# Model Building
+# Model Development
 
-This module contains Machine Learning models used for crop recommendation.
+This folder contains all machine learning model development activities for the OptiCrop project.
 
-## Models Used
+## Contents
 
-* Random Forest Classifier
-* Decision Tree Classifier
-* Logistic Regression
-
-These models are trained using soil nutrients, temperature, humidity, pH, and rainfall data to predict the most suitable crop.
+- Dataset Clustering using K-Means
+- Logistic Regression Model Training
+- Model Evaluation
+- Crop Prediction System
+- Trained Model
+- Documentation Files
