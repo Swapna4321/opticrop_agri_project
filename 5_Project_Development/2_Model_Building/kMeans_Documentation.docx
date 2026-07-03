@@ -1,0 +1,55 @@
+Objective
+The objective of this module is to group crops with similar soil and environmental conditions using the K-Means Clustering algorithm. This helps in identifying patterns within the agricultural dataset and improves crop recommendation analysis.
+
+Algorithm Used
+K-Means Clustering
+
+Input Parameters
+The following parameters are used for clustering:
+
+Nitrogen (N)
+Phosphorus (P)
+Potassium (K)
+Temperature
+Humidity
+pH Value
+Rainfall
+Methodology
+Step 1: Data Collection
+
+The crop recommendation dataset containing soil nutrients and environmental parameters is collected.
+
+Step 2: Data Preprocessing
+Check for missing values.
+Handle outliers.
+Standardize numerical features using StandardScaler.
+Step 3: Clustering
+
+The K-Means algorithm is applied to the dataset to divide the crops into different clusters based on their similarities.
+
+Step 4: Cluster Assignment
+
+Each record is assigned a cluster label and stored in the dataset.
+
+Output
+
+A new column named Cluster is added to the dataset.
+
+Example:
+
+N	P	K	Temperature	Humidity	pH	Rainfall	Crop	Cluster
+90	42	43	20.8	82	6.5	202	Rice	1
+Advantages
+Groups similar crops together.
+Improves agricultural data analysis.
+Helps identify crop patterns.
+Supports machine learning model development.
+Tools and Technologies Used
+Python
+Pandas
+NumPy
+Scikit-Learn
+Google Colab
+Conclusion
+
+K-Means Clustering successfully groups crops based on soil nutrients and environmental conditions. The generated clusters can be used for further analysis and crop recommendation model development.
