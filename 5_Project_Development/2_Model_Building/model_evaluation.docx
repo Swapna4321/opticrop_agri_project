@@ -1,0 +1,36 @@
+Module Name:
+Model Evaluation
+
+Objective:
+To evaluate the performance of the trained Logistic Regression model.
+
+Evaluation Metrics Used:
+1. Accuracy Score
+2. Confusion Matrix
+3. Classification Report
+
+Description:
+Model evaluation is performed to measure how accurately the trained model predicts crop recommendations.
+
+Accuracy Score:
+Measures the percentage of correct predictions made by the model.
+
+Confusion Matrix:
+Displays actual and predicted classifications for performance analysis.
+
+Classification Report:
+Provides precision, recall, F1-score, and support values for each crop class.
+
+Tools Used:
+• Python
+• Scikit-Learn
+• Pandas
+• Jupyter Notebook
+
+Output:
+• Accuracy Score
+• Confusion Matrix
+• Classification Report
+
+Conclusion:
+The Logistic Regression model is evaluated using standard classification metrics to determine its prediction performance and reliability.
