@@ -1,0 +1,70 @@
+Project Title:
+OptiCrop - Intelligent Crop Recommendation System
+
+Module Name:
+Logistic Regression Model Building
+
+Objective:
+The objective of this module is to build a machine learning model that predicts the most suitable crop based on soil nutrients and environmental conditions.
+
+Algorithm Used:
+Logistic Regression
+
+Description:
+Logistic Regression is a supervised machine learning algorithm used for classification problems. In this project, the algorithm is trained using agricultural data to recommend suitable crops for cultivation.
+
+Input Features:
+1. Nitrogen (N)
+2. Phosphorus (P)
+3. Potassium (K)
+4. Temperature
+5. Humidity
+6. pH Value
+7. Rainfall
+8. Cluster
+
+Target Variable:
+Crop Label
+
+Dataset:
+Clustered_Dataset.csv
+
+Methodology:
+
+Step 1:
+Load the clustered dataset using Pandas.
+
+Step 2:
+Separate input features (X) and target variable (y).
+
+Step 3:
+Split the dataset into training and testing datasets using Train-Test Split.
+
+Step 4:
+Create a Logistic Regression model.
+
+Step 5:
+Train the model using training data.
+
+Step 6:
+Save the trained model as logistic_model.pkl.
+
+Tools and Technologies:
+• Python
+• Pandas
+• NumPy
+• Scikit-Learn
+• Jupyter Notebook
+
+Output:
+• Trained Logistic Regression Model
+• logistic_model.pkl file
+
+Advantages:
+• Simple and efficient classification algorithm.
+• Fast training and prediction.
+• Easy to implement.
+• Suitable for crop recommendation systems.
+
+Conclusion:
+The Logistic Regression model was successfully trained using the clustered agricultural dataset. The trained model can be used to predict suitable crops based on soil and environmental parameters.
