@@ -1,0 +1,67 @@
+Module Name:
+Web Application
+
+Objective:
+To develop a user-friendly web application that provides crop recommendations based on soil nutrients and environmental conditions.
+
+Introduction:
+The Web Application module serves as the interface between the user and the crop recommendation system. It allows users to enter agricultural parameters and receive suitable crop recommendations instantly.
+
+Technology Stack:
+• Python
+• Flask
+• HTML
+• CSS
+
+Files Used:
+1. app.py
+2. templates/index.html
+3. static/style.css
+4. requirements.txt
+
+Input Parameters:
+• Nitrogen (N)
+• Phosphorus (P)
+• Potassium (K)
+• Temperature
+• Humidity
+• pH Value
+• Rainfall
+
+Working Procedure:
+
+Step 1:
+The user enters soil and environmental parameters through the web form.
+
+Step 2:
+The Flask application receives the input values.
+
+Step 3:
+The system processes the input data.
+
+Step 4:
+Crop recommendation logic is executed.
+
+Step 5:
+The recommended crop is displayed on the web page.
+
+Features:
+• User-friendly interface
+• Easy data entry
+• Fast crop recommendation
+• Responsive web application
+
+Advantages:
+• Supports smart agriculture
+• Reduces decision-making time
+• Improves farming efficiency
+• Simple and easy to use
+
+Output:
+Recommended Crop
+
+Expected Result:
+The application successfully recommends a suitable crop based on the provided soil and environmental conditions.
+
+Conclusion:
+The Web Application module provides an effective interface for interacting with the OptiCrop system. It enables users to obtain crop recommendations quickly and efficiently through a web-based platform.
